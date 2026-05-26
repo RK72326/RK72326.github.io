@@ -35,8 +35,13 @@ h1, h2, h3 {
 -------------------- */
 
 a {
-  color: var(--theme-color);
+  color: blue;
   text-decoration: none;
+}
+
+a:hover {
+        color: skyblue;
+        text-decoration: underline;
 }
 
 /* --------------------
